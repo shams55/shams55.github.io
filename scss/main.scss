@@ -1,0 +1,50 @@
+
+
+
+// 1. Configuration and helpers
+
+@import 
+    'abstracts/variables',
+    'abstracts/functions',
+    'abstracts/mixins';
+    
+
+// 2.All Vendors
+@import
+'vendors/vendors-import';
+
+// 3. Base 
+ @import
+    'base/global',
+    'base/animation',
+    'base/typography';
+// // 4. Components
+
+@import
+'components/buttons',
+'components/form',
+'components/slider',
+'components/products',
+'components/blog',
+'components/card',
+'components/tabs',
+'components/banners';
+// // 5. Page-specific styles
+
+@import
+'pages/home',
+'pages/shop',
+'pages/cart',
+'pages/shippment';
+// // 6. Themes
+
+@import
+'themes/default';
+
+// 7. Layout-related sections
+@import
+'layout/header',
+'layout/sidebar',
+'layout/footer',
+'layout/spacing',
+'layout/responsive';

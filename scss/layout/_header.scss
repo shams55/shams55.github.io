@@ -1,0 +1,97 @@
+.square-avatar {
+  background: $white;
+  min-height: 150px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
+.avatar-info {
+  img{
+    width: 100px;
+    border-radius: 4px;
+  }
+  .content{
+    padding: 50px 10px 0px;
+    h2 {
+      font-size: 18px;
+      margin-bottom: 2px;
+    }
+    h4{
+      font-size: 12px;
+    }
+  }
+}
+.button-content{
+  padding: 50px 0px 0px;
+}
+// .button-content{
+//   position: absolute;
+//     bottom: -58px;
+//     right: 0;
+// }
+
+.structure {
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.card-parent{
+  box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 20%);
+}
+.card-content{
+  border-radius: 4px;
+  padding: 20px;
+}
+// .intro-card{
+//   h3{
+//     font-size: 16px;
+//   }
+// }
+
+
+
+.personal-info ul li span {
+  font-size: 15px;
+  font-weight: bold;
+}
+.personal-info ul.expreience li{
+  display: inline-block;
+}
+.personal-info ul.expreience li a{
+  background-color: #F0F2F5;
+  padding: 5px 9px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+.personal-info{
+  padding: 20px;
+  box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 20%);
+}
+.personal-info .avatar-img-content img {
+  width: 110px;
+  border-radius: 100px;
+  margin: 0 auto;
+  text-align: center;
+  height: 110px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background: transparent;
+  color: #05c46b;
+}
+
+.nav-link{
+  color: $black;
+  font-weight: bold;
+}
+.nav-link:focus, .nav-link:hover {
+  color: #05c46b;
+}
+.nav-link {
+  padding: 0px 30px 0px 0px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+}

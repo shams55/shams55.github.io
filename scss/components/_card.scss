@@ -1,0 +1,228 @@
+.servie i {
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    background: #05c46b;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.border-top{
+    border-top: 2px solid #05c46b !important;
+}
+.testimonial-quote h4,
+.consultant h4,
+.servie h4 {
+    font-size: 15px;
+}
+#changingword {
+    color: #05c46b;
+    font-size: 12px;
+    font-weight: bold;
+}
+.testimonial-quote{
+    p{
+        padding: 0px 30px;
+        font-size: 15px;
+        font-style: italic;
+    }
+    img{
+        width: 45px;
+    }
+    span{
+        font-size: 12px;
+    }
+}
+.consultant {
+    background: #05c46b;
+    h4{
+        font-size: 20px;
+    }
+}
+.archive{
+    h4{
+        font-size: 17px;
+    }
+    span{
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    img{
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        display: inline-block;
+    }
+}
+
+// resume
+.timeline {
+    margin-top: 1.8125rem;
+    padding-left: 1.0625rem;
+}
+.timeline__item {
+    border-left-color: #F0F0F6;
+    border-left-width: 1px;
+    border-left-style: solid;
+    padding-bottom: 1.1875rem;
+    padding-left: 1.375rem;
+    position: relative;
+}
+.timeline__item::before {
+    content: '';
+    background-color: #05c46b ;
+    box-shadow: 0 0 0 0.1875rem rgb(48 76 253 / 25%);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: -0.3125rem;
+    height: 0.625rem;
+    width: 0.625rem;
+}
+.timeline__title {
+    margin-bottom: 0;
+    position: relative;
+    top: -0.4375rem;
+}
+.timeline__period {
+    color: #8697A8;
+    font-size: 0.875rem;
+}
+.timeline__description {
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.timeline__item:last-child {
+    border: 0;
+    padding-bottom: 0;
+}
+
+
+.progress {
+    background-color: rgba(68, 86, 108, 0.1);
+    border-radius: 20px;
+    height: 1.3rem;
+    margin-bottom: 1.5rem;
+    overflow: inherit;
+    position: relative;
+    text-align: right;
+}
+.progress-bar {
+    background-color: #05c46b;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    width: 0%;
+    z-index: 1;
+}
+.progress .progress-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding-left: 0.8125rem;
+    padding-right: 0.8125rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.progress .progress-text > * {
+    min-width: 0;
+}
+.box-gray{
+    margin-top:1.8125rem;
+}
+
+// contact
+
+.comment-author-email-url input {
+    width: 100%;
+    padding: 10px;
+    /* margin-right: 9px; */
+}
+#map {
+    width: 100%;
+    height: 230px;
+    margin-bottom: 25px;
+  }
+  .biocard tbody tr td{
+    padding: 0px;
+  }
+
+ 
+.biocard tbody tr td i {
+    /* border: 1px solid #ddd; */
+    padding: 3px 3px 1px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.biocard tbody tr td {
+    padding: 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.social-link a {
+    margin: 2px;
+    /* color: red; */
+    border-radius: 0px;
+    /* border: 1px solid #ddd; */
+    padding: 2px;
+}
+#cssmenu ul li a.active {
+    color: #05c46b;
+}
+.nav-tabs {
+    border-bottom: 1px solid #fff;
+}
+.tabboxcontent .nav-item.show .nav-link, 
+.tabboxcontent .nav-link.active {
+    background-color: #05c46b;
+    color: #fff;
+    border-color: #fff #fff #fff;
+}
+.tabboxcontent .nav-link {
+    padding: 4px 18px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #fff #fff #fff;
+    font-weight: bold;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: white !important;
+    background: #05c46b;
+}
+.navpilslist.nav-pills .nav-link.active, 
+.navpilslist.nav-pills .show > .nav-link {
+    color: #05c46b !important;
+    font-weight: bold;
+}
+.navpilslist.nav-pills .nav-link {
+    font-weight: bold;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #05c46b !important;
+    font-weight: bold;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #05c46b !important;
+    font-weight: bold;
+    background-color: #fff;
+    border-color: #fff #fff #fff;
+}
+.nav-tabs .nav-link{
+    font-weight: bold;
+}

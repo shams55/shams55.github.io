@@ -1,0 +1,124 @@
+
+
+body {
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: "Open Sans", sans-serif;
+    background: $bgbody;
+    font-size: 14px;
+    line-height: 24px; 
+}
+ul{
+    margin:0px;
+    padding: 0px;
+    li{
+        list-style:none;
+        a{
+            text-decoration:none;
+        }
+    }
+}
+
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-family: $roboto;
+  font-weight: normal;
+  color: $black; 
+}
+p{
+  color: $gray;
+}
+h1{
+  font-size: 42px;
+}
+h2{
+  font-size: 36px;
+}
+h3{
+  font-size: 30px;
+}
+h4{
+  font-size: 24px;
+}
+h5{
+  font-size: 18px;
+}
+h6{
+  font-size: 12px;
+}
+
+.color-gray{
+  color: #888;
+}
+
+
+a{
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  font-weight: normal;
+  color: inherit;
+  font-family: inherit; 
+  text-decoration: none;
+}
+a:hover, a:focus, a.active {
+  text-decoration: none;
+  color: inherit; 
+}
+  
+input {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; 
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="url"],
+input[type="search"],
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="time"],
+.form-control,textarea,textarea.form-control{
+  height: 35px;
+  border-radius: .25rem;
+  box-shadow: none;
+  border: none;
+  border: 1px solid #e2e2e2;
+  &:focus{
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #05c46b;
+    // background: transparent;
+    // border: 1px solid $orange;
+  }
+}
+textarea, textarea.form-control {
+  height: auto;
+  padding: 10px;
+  min-height: 146px;
+  width: 100%;
+}
+button{
+  &:focus{
+    outline: 0;
+  }
+}
+  
+.heading{
+  font-size: 22px;
+}
+.bg-primary {
+  background-color: #05c46b!important;
+}
+.bg-secondary {
+  background-color: #03A5F0!important;
+}
